@@ -26,7 +26,7 @@ export default function App() {
           <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
 
           {/* <Environment preset="city" /> */}
-          <Environment resolution={1024} files="/studio_small_08_2k.hdr" background ground={{ height: 15, radius: 80, scale: 50 }} backgroundBlurriness={50} backgroundIntensity={10}  environmentIntensity={30}>
+          <Environment resolution={1024} files="/studio_small_08_2k.hdr" background ground={{ height: 35, radius: 100, scale: 25 }} backgroundBlurriness={50} backgroundIntensity={10}  environmentIntensity={30}>
            
           </Environment>
           
